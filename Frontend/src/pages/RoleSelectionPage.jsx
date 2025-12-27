@@ -66,7 +66,7 @@ export default function RoleSelection() {
             className={`p-6 rounded-xl border-2 cursor-pointer transition-all ${
               selectedRole === 'student'
                 ? 'border-blue-500 bg-blue-50'
-                : 'border-gray-300 bg-white hover:border-blue-300'
+                : 'border-gray-300 bg-white hover:border-blue-500'
             }`}
           >
             <div className="flex items-center space-x-4">
@@ -100,7 +100,7 @@ export default function RoleSelection() {
             className={`p-6 rounded-xl border-2 cursor-pointer transition-all ${
               selectedRole === 'owner'
                 ? 'border-blue-500 bg-blue-50'
-                : 'border-gray-300 bg-white hover:border-blue-300'
+                : 'border-gray-300 bg-white hover:border-blue-500'
             }`}
           >
             <div className="flex items-center space-x-4">

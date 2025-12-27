@@ -18,7 +18,7 @@ const pgHostelSchema = new mongoose.Schema({
     landmark: String
   },
   contact: {
-    phone: String,
+    phone: Number,
     email: String
   },
   facilities: [String],

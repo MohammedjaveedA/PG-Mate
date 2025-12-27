@@ -23,7 +23,9 @@ const userSchema = new mongoose.Schema({
     default: 'student'
   },
   phone: {
-    type: String
+    type: Number,
+    required: true,
+    unique: true
   },
   pgHostelId: {
     type: mongoose.Schema.Types.ObjectId,
